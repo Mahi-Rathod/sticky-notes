@@ -10,8 +10,7 @@ A **Sticky Notes** web application that allows users to create, organize, and ma
 - ✍️ **Create New Notes**: Users can add new sticky notes.
 - 🖍️ **Edit Notes**: Easily update or modify the content of a note.
 - 🗑️ **Delete Notes**: Remove a note when it's no longer needed.
-- 📋 **Persist Data**: Notes stay on the page after refreshing (if localStorage is used).
-- 🎨 **Customizable Styles**: Sticky notes come in vibrant colors, and users can drag them around the screen for better organization.
+- 🎨 **Customizable Styles**: Sticky notes come in vibrant colors.
 
 ---
 
@@ -44,6 +43,8 @@ A **Sticky Notes** web application that allows users to create, organize, and ma
 Here's a sneak peek of what the **Sticky Notes** app looks like:
 
 ![Screenshot 1](./Assets/Screenshots/Screenshot1.JPG)
+![Screenshot 2](./Assets/Screenshots/Screenshot3.JPG)
+![Screenshot 3](./Assets/Screenshots/Screenshot2.JPG)
 
 ---
 
@@ -54,6 +55,8 @@ Here's a sneak peek of what the **Sticky Notes** app looks like:
 │
 ├── 📁 screenshots
 │   └── Screenshot1.JPG
+│   └── Screenshot2.JPG
+│   └── Screenshot3.JPG
 ├── 📄 index.html        # The main HTML file
 ├── 📄 styles.css    # Styles for the sticky notes and layout
 └── 📄 app.js        # JavaScript file for note creation, editing, and deletion
