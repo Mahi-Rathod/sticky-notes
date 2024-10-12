@@ -1,0 +1,60 @@
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1.5rem;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: "Zeyada", cursive;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.main{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  height: 7rem;
+  width: 12rem;
+  position: relative;
+  background-color: rgb(255, 250, 186);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(158, 158, 158);
+}
+
+.input-container textarea{
+  max-width: 95%;
+  max-height: 70%;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  color: rgb(105, 105, 105);
+}
+
+textarea:focus{
+  outline: none;
+}
+
+.input-container button{
+  position: absolute;
+  bottom: 0rem;
+  right: 0.3rem;
+  background:none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  border: none;
+  color: rgb(105, 255, 35);
+  cursor: pointer;
+}
